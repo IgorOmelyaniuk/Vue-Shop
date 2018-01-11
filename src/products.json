@@ -1,0 +1,664 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Redmi 4X 16GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Xiaomi"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "720x1280"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 2
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1920x1080"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 4100
+                }
+            ],
+            "price": 240,
+            "rating": 3,
+            "imageUrl": "https://content2.onliner.by/catalog/device/main/120acd993badb6c95fb17b42cf4acd0e.jpeg"
+        },
+        {
+            "id": "2",
+            "name": "iPhone X 64GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Apple"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.8"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1125x2436"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 3
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 2716
+                }
+            ],
+            "price": 2500,
+            "rating": 4,
+            "imageUrl": "https://www.telemart.pk/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/i/p/iphonex_1.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Galaxy S8 Dual SIM 64GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Samsung"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.8"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1440x2960"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 3
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3000
+                }
+            ],
+            "price": 1450,
+            "rating": 5,            
+            "imageUrl": "https://xiaomi-meizu.by/upload/iblock/bc6/bc67a6ef7a1c3bbd6bdd45bb00865bff.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Mi A1 4GB/64GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Xiaomi"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.5"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x1920"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 4
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1920x1080"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3080
+                }
+            ],
+            "price": 550,
+            "rating": 2,
+            "imageUrl": "https://svetofor.info/images/detailed/130/xiaomi-mi-a1-64gb-ram-4gb-chernyy.jpg"
+        },
+        {
+            "id": "5",
+            "name": "iPhone 7 32GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Apple"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "4.7"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "750x1334"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 2
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 1960
+                }
+            ],
+            "price": 1220,
+            "rating": 5,
+            "imageUrl": "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=470&hei=556&fmt=png-alpha&qlt=95&.v=1472430090682"
+        },
+        {
+            "id": "6",
+            "name": "P10 Lite 3GB/32GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Huawei"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.2"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x1920"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 3
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1920x1080"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3000
+                }
+            ],
+            "price": 450,
+            "rating": 4,
+            "imageUrl": "https://quke.ru/UserFiles/Image/img49856_37528.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Galaxy J7 (2017) Dual SIM",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Samsung"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.5"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x1920"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 3
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1920x1080"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3600
+                }
+            ],
+            "price": 450,
+            "rating": 5,
+            "imageUrl": "https://cdn.movertix.com/media/catalog/product/s/a/samsung-galaxy-j7-2017-negro-dual-sim-j730fn-SGJ730DSB.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Mate 10 Lite",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Huawei"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.9"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x2160"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 4
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3340
+                }
+            ],
+            "price": 740,
+            "rating": 5,
+            "imageUrl": "https://www.whatmobile.com.pk/admin/images/Huawei/Mate%2010%20Lite/3.jpg"
+        },
+        {
+            "id": "9",
+            "name": "Galaxy A5 (2017)",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Samsung"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.2"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x1920"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 3
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1920x1080"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3000
+                }
+            ],
+            "price": 410,
+            "rating": 4,
+            "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51GSQqPFQYL._SX425_.jpg"
+        },
+        {
+            "id": "10",
+            "name": "Mi Mix 2 6GB/128GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Xiaomi"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "6"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x2160"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 6
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3400
+                }
+            ],
+            "price": 1500,
+            "rating": 4,
+            "imageUrl": "http://img.phonescoop.com/img/a/f/19563_600_a_5dc527a3e9e521372f567885e6181837.jpg"
+        },
+        {
+            "id": "11",
+            "name": "Galaxy Note8 Dual SIM 64GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Samsung"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "6.3"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1440x2960"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 6
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3300
+                }
+            ],
+            "price": 2080,
+            "rating": 5,
+            "imageUrl": "http://cdn.shopify.com/s/files/1/0840/7279/products/Samsung_Galaxy_Note_8_Black_d5df06d7-052d-4f3b-81b2-806b16f62c6c_grande.jpg?v=1510651022"
+        },
+        {
+            "id": "12",
+            "name": "5T 6GB/64GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "OnePlus"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "6"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x2160"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 6
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3300
+                }
+            ],
+            "price": 1400,
+            "rating": 5,
+            "imageUrl": "https://image2.geekbuying.com/ggo_pic/2017-11-28/2017112801748391lyq2h4z.jpg"
+        },
+        {
+            "id": "13",
+            "name": "iPhone 6s 16GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Apple"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "4.7"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "750x1334"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 2
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 1715
+                }
+            ],
+            "price": 490,
+            "rating": 3,
+            "imageUrl": "http://apple-ios.by/image/cache/640-640/data/product-778/iPhone_6s_Space_Gray_1a.jpg"
+        },
+        {
+            "id": "14",
+            "name": "Galaxy S7 32GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Samsung"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.1"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1440x2560"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 4
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3000
+                }
+            ],
+            "price": 995,
+            "rating": 5,
+            "imageUrl": "https://static.svyaznoy.ru/upload/iblock/7d4/3365885_11.jpg/resize/483x483/hq/"
+        },
+        {
+            "id": "15",
+            "name": "6",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Nokia"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.5"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x1920"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 3
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1920x1080"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3000
+                }
+            ],
+            "price": 500,
+            "rating": 2,
+            "imageUrl": "https://static.svyaznoy.ru/upload/iblock/981/3650435_12.jpg/resize/483x483/hq/"
+        },
+        {
+            "id": "16",
+            "name": "8 Dual SIM",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Nokia"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.3"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1440x2560"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 4
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3090
+                }
+            ],
+            "price": 1100,
+            "rating": 4,
+            "imageUrl": "http://img.citrus.ua/upload/iblock/e4b/Blue_1.jpg"
+        },
+        {
+            "id": "17",
+            "name": "Xperia XA1 Plus Dual",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Sony"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.5"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x1920"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 4
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3430
+                }
+            ],
+            "price": 639,
+            "rating": 3,
+            "imageUrl": "https://static.svyaznoy.ru/upload/iblock/bfc/3817931_12.jpg/resize/483x483/hq/"
+        },
+        {
+            "id": "18",
+            "name": "Mate 10 Pro Dual SIM 4GB/64GB",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "Huawei"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "6"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x2160"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 4
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "3840x2160"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 4000
+                }
+            ],
+            "price": 1900,
+            "rating": 4,
+            "imageUrl": "https://quke.ru/UserFiles/Image/img49856_37528.jpg"
+        },
+        {
+            "id": "19",
+            "name": "M5c",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "MEIZU"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "720x1280"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 2
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1280x720"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3000
+                }
+            ],
+            "price": 215,
+            "rating": 1,
+            "imageUrl": "https://i1.rozetka.ua/goods/2075560/meizu_m5c_2_16_gold_eu_images_2075560522.jpg"
+        },
+        {
+            "id": "20",
+            "name": "Q6",
+            "params": [
+                {
+                    "name": "Производитель",
+                    "value": "LG"
+                },
+                {
+                    "name": "Размер экрана",
+                    "value": "5.5"
+                },
+                {
+                    "name": "Разрешение экрана",
+                    "value": "1080x2160"
+                },
+                {
+                    "name": "Оперативная память, ГБ",
+                    "value": 3
+                },
+                {
+                    "name": "Максимальное разрешение видео",
+                    "value": "1920x1080"
+                },
+                {
+                    "name": "Ёмкость аккумулятора, мАч",
+                    "value": 3000
+                }
+            ],
+            "price": 595,
+            "rating": 3,
+            "imageUrl": "https://www.91-img.com/pictures/lg-q6-mobile-phone-large-1.jpg"
+        }
+    ]
+}
