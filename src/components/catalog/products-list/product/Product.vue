@@ -97,7 +97,7 @@
           left 28px
           width 24px
           height 23px
-          background url('../../../assets/images/basket-white.png') center no-repeat
+          background url('../../../../assets/images/basket-white.png') center no-repeat
           background-size cover
         &:hover
           background #db2019

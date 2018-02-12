@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Header from './components/Header/Header.vue'
-import Catalog from './components/Catalog/Catalog.vue'
+import Header from './components/header/Header.vue'
+import Catalog from './components/catalog/Catalog.vue'
 import {QLayout} from 'quasar'
 export default {
   components: {

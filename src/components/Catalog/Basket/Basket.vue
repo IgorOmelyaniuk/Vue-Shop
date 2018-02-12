@@ -12,12 +12,13 @@
 </template>
 
 <script>
-  import basketInfo from './Basket-Info/basketInfo.vue'
-  import basketList from './Basket-List/basketList.vue'
+  import basketInfo from './basket-info/BasketInfo.vue'
+  import basketList from './basket-list/BasketList.vue'
+  import store from '../../../store'
   export default {
-    props: ['basket'],
     data: function () {
       return {
+        basket: store.basket,
         open: false
       }
     },
