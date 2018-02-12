@@ -2,7 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Catalog from './components/catalog/Catalog.vue'
-import Product from './components/catalog/products-list/product/Product.vue'
+import ProductRow from './components/catalog/products-list/product-row/ProductRow.vue'
+import ProductColumn from './components/catalog/products-list/product-column/ProductColumn.vue'
 
 Vue.use(VueRouter)
 
@@ -29,9 +30,8 @@ export default new VueRouter({
 
   routes: [
     { path: '/', component: Catalog },
-    { path: '/product', component: Product }
-
-    // Always leave this last one
+    { path: '/productColumn', component: ProductColumn },
+    { path: '/productRow', component: ProductRow }
     // { path: '*', component: load('Error404') } // Not found
   ]
 })

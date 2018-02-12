@@ -2,8 +2,10 @@
   <div id="q-app">
     <q-layout ref="layout" view="lHh Lpr fff">
       <app-header></app-header>
-      <!-- <router-view /> -->
-      <app-catalog></app-catalog>
+      <div class="layout-padding"> 
+        <router-view></router-view>
+      </div>
+      <!-- <app-catalog></app-catalog> -->
     </q-layout>
   </div>
 </template>
