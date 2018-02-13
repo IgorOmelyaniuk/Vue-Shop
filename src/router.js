@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Catalog from './components/catalog/Catalog.vue'
-import ProductsList from './components/catalog/products-list/ProductsList.vue'
-import ProductItem from './components/catalog/products-list/product-item/ProductItem.vue'
+import ProductsList from './components/catalog/products/ProductsList.vue'
+import ProductItem from './components/catalog/products/ProductItem.vue'
 
 Vue.use(VueRouter)
 
@@ -42,7 +42,6 @@ export default new VueRouter({
         }
       ]
     }
-    // { path: '/ProductItem', component: ProductItem }
     // { path: '*', component: load('Error404') } // Not found
   ]
 })

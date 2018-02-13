@@ -12,7 +12,7 @@
 
 <script>
   import {QRating} from 'quasar'
-  import Product from '../product/Product.vue'
+  import Product from './Product.vue'
   export default {
     props: ['product'],
     methods: {
@@ -30,11 +30,11 @@
 <style scoped lang="stylus">
 .rows
   .product-item
-    width 100%
-    min-height 60px
+    width: 48%
+    min-height 304px
 .columns
   .product-item
-    width: 48%
+    width 22%
 .product-item
   min-height 304px
   background #fff
@@ -69,9 +69,8 @@
         left 28px
         width 24px
         height 23px
-        background url('../../../../assets/images/basket-white.png') center no-repeat
+        background url('../../../assets/images/basket-white.png') center no-repeat
         background-size cover
       &:hover
         background #db2019
 </style>
-

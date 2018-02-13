@@ -1,7 +1,7 @@
 <template>
     <div class="basket-info flex" @mouseover="hoverOnInfo">
       <div class="basket-icon">
-        <img src="../../../../assets/images/basket.png" alt="">
+        <img src="../../../assets/images/basket.png" alt="">
         <div class="basket-amount">{{amount}}</div>
       </div>
       <div class="basket-sum">{{sum}} руб.</div>

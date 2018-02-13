@@ -1,6 +1,6 @@
 <template>
   <div class="products">
-    <div class="products-list  col-9 flex justify-between content-start">
+    <div class="products-list col-9 flex justify-between ">
       <product-item
         v-for="product in products"
         :key="product.id"
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ProductItem from './product-item/ProductItem.vue'
+import ProductItem from './ProductItem.vue'
 import store from '../../../store'
 export default {
   data: function () {

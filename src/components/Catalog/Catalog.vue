@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import ProductsList from './products-list/ProductsList.vue'
+import ProductsList from './products/ProductsList.vue'
 import Basket from './basket/Basket.vue'
 import GridBtns from './grid-btns/GridBtns.vue'
 export default {
