@@ -42,8 +42,8 @@
         this.open = false
       },
       remove ($event) {
-        const index = this.basket.indexOf(product => product.id === $event)
-        this.basket.splice(index, 1)
+        store.basket = store.basket.filter(product => product.id !== $event)
+        this.basket = store.basket
       }
     },
     components: {

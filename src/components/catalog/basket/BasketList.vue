@@ -1,6 +1,6 @@
 <template>
   <div class="basket-list">
-      <basket-item 
+      <basket-item
         v-for="product in products"
         :product="product"
         :key="product.id"
@@ -22,7 +22,7 @@
         this.$emit('removeFromBasket', $event)
       }
     }
-}
+  }
 </script>
 
 <style lang="stylus" scoped>
