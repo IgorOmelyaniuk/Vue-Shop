@@ -1,15 +1,16 @@
 <template>
-  <div class="row flex justify-end btns-grid">
+  <div class="flex justify-end btns-grid">
     <button @click="changeGrid('rows')" class="btn-grid grid-row"></button>
     <button @click="changeGrid('columns')" class="btn-grid grid-column"></button>
   </div>
 </template>
 
 <script>
+import store from '../../../store'
 export default {
   data: function () {
     return {
-      grid: 'column'
+      grid: store.grid
     }
   },
   methods: {
@@ -23,6 +24,7 @@ export default {
 <style lang="stylus" scoped>
 .btns-grid
   margin-bottom 2rem
+  padding-left 2rem
   .btn-grid
     display block
     width 25px
@@ -35,9 +37,9 @@ export default {
     outline none
     cursor pointer
   .grid-row
-    background-image url('../../../../assets/images/grid-row.png')
+    background-image url('../../../assets/images/grid-row.png')
   .grid-column
-    background-image url('../../../../assets/images/grid-column.png')
+    background-image url('../../../assets/images/grid-column.png')
     margin-left 1rem
 </style>
 

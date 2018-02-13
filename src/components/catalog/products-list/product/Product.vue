@@ -1,20 +1,16 @@
 <template>
-  <div class="container">
-    <slot>
-      <div class="product-item-top flex justify-between">
-        <div class="product-item-img">
-          <img :src="product.imageUrl" alt="">
-        </div>
-        <div class="product-item-info">
-          <div class="product-item-param" v-for="param in product.params" :key="param.name">
-            <span class="param-title">{{param.name}}:</span>
-            <span class="param-vaule">{{param.value}}</span>
-          </div>
-          <div class="product-item-name">{{product.name}}</div>
-          <q-rating color="red" v-model="product.rating" :max="5" readonly/>
-        </div>
+  <div class="product flex justify-between">
+    <div class="product-img">
+      <img :src="product.imageUrl" alt="">
+    </div>
+    <div class="product-info">
+      <div class="product-param" v-for="param in product.params" :key="param.name">
+        <span class="param-title">{{param.name}}:</span>
+        <span class="param-value">{{param.value}}</span>
       </div>
-    </slot>
+      <div class="product-name">{{product.name}}</div>
+      <q-rating color="red" v-model="product.rating" :max="5" readonly/>
+    </div>
   </div>
 </template>
 
@@ -34,63 +30,31 @@
 </script>
 
 <style scoped lang="stylus">
-.product-item
+.product
+  padding 1rem
+  width 100%
   &-img
     width: 30%
     position: relative
-    height: 200px
+    height: 230px
     img
-      width: 100%
+      max-width: 100%
       position: absolute
       top: 50%
       left: 50%
       transform: translate(-50%, -50%)
+      max-height 100%
   &-info
     width 65%
-    padding-top 2rem
-    .product-item-param
+    padding-top 1rem
+    .product-param
+      font-size 1rem
       margin-bottom 5px
-      font-size 13px
-      text-align left
       color #929292
       .param-title
         font-weight bold
-    .product-item-name
-      font-size 1rem
-      margin-top 1rem
-  &-bottom
-    line-height 40px
-    color #fff
-    font-weight bold
-    .product-item-price
-      width 65%
-      background #3d3d3d
-      text-align right
-      padding-right 1rem
-      font-size 1.1em
-    .product-item-buy
-      width 35%  
-      display block
-      outline none
-      border none
-      background #e83e38
-      color #fff
-      text-transform uppercase
-      position relative
-      cursor pointer
-      font-size 0.9rem
-      &::before
-        content ''
-        display block
-        position absolute
-        top 8px
-        left 28px
-        width 24px
-        height 23px
-        background url('../../../../assets/images/basket-white.png') center no-repeat
-        background-size cover
-      &:hover
-        background #db2019
-
+    .product-name
+      margin 1rem 0 0.5rem
+      font-size 1.2rem
 </style>
 
