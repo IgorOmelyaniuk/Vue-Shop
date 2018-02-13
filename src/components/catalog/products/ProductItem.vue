@@ -36,10 +36,10 @@
   .product-item
     width 22%
 .product-item
-  min-height 304px
+  min-height 541px
   background #fff
   box-shadow 0 2px 3px rgba(121,112,112,0.2)
-  margin-bottom: 1rem
+  margin-bottom 1rem
   font-size 1rem
   &-bottom
     width 100% 
