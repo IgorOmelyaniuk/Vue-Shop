@@ -1,6 +1,6 @@
 <template>
   <div class="product-item flex items-end">
-    <app-product :product="product" v-if="product"></app-product>
+    <product-large :product="product" v-if="product"></product-large>
     <div class="product-item-bottom flex justify-between">
         <div class="product-item-price">
           <span v-if="product">{{product.price}} руб.</span>
@@ -12,7 +12,7 @@
 
 <script>
   import {QRating} from 'quasar'
-  import Product from './Product.vue'
+  import ProductLarge from './ProductLarge.vue'
   export default {
     props: ['product'],
     methods: {
@@ -22,7 +22,7 @@
     },
     components: {
       QRating,
-      appProduct: Product
+      productLarge: ProductLarge
     }
   }
 </script>

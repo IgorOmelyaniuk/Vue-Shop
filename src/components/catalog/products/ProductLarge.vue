@@ -1,15 +1,15 @@
 <template>
-  <div class="product flex justify-between">
-    <div class="product-img">
+  <div class="product-large flex justify-between">
+    <div class="product-large-img">
       <img :src="product.imageUrl" :alt="product.name">
     </div>
-    <div class="product-info">
-      <div class="product-param" v-for="param in product.params" :key="param.name">
+    <div class="product-large-info">
+      <div class="product-large-param" v-for="param in product.params" :key="param.name">
         <span class="param-title">{{param.name}}:</span>
         <span class="param-value">{{param.value}}</span>
       </div>
-      <div class="product-name">{{product.name}}</div>
-      <div class="product-rating">
+      <div class="product-large-name">{{product.name}}</div>
+      <div class="product-large-rating">
         <q-rating color="red" v-model="product.rating" :max="5" readonly/>
       </div>
     </div>
@@ -33,7 +33,7 @@
 
 <style scoped lang="stylus">
 .columns
-  .product
+  .product-large
     display block
     &-img
       width 60%
@@ -44,7 +44,7 @@
     &-name,
     &-rating
       text-align center
-.product
+.product-large
   padding 1rem
   width 100%
   &-img
