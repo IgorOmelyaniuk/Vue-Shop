@@ -71,4 +71,3 @@
       margin 1rem 0 0.5rem
       font-size 1.2rem
 </style>
-

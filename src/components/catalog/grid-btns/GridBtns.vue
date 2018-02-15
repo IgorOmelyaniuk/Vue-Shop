@@ -6,13 +6,7 @@
 </template>
 
 <script>
-import store from '../../../store'
 export default {
-  data: function () {
-    return {
-      grid: store.grid
-    }
-  },
   methods: {
     changeGrid (param) {
       this.$emit('changeGrid', param)
