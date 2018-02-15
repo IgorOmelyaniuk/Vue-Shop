@@ -12,8 +12,8 @@
 </template>
 
 <script>
-  import basketInfo from './BasketInfo.vue'
-  import basketList from './BasketList.vue'
+  import BasketInfo from './BasketInfo.vue'
+  import BasketList from './BasketList.vue'
   import store from '../../../store'
   export default {
     data: function () {

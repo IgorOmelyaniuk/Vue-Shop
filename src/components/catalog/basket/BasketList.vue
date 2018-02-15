@@ -11,7 +11,7 @@
 </template>
 
 <script>
-  import basketItem from './BasketItem.vue'
+  import BasketItem from './BasketItem.vue'
   export default {
     props: ['products', 'sum', 'amount'],
     components: {
