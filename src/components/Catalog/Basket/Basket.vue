@@ -47,8 +47,8 @@
       }
     },
     components: {
-      basketInfo: basketInfo,
-      basketList: basketList
+      basketInfo: BasketInfo,
+      basketList: BasketList
     }
 }
 </script>

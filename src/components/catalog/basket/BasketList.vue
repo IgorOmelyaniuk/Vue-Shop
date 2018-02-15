@@ -15,7 +15,7 @@
   export default {
     props: ['products', 'sum', 'amount'],
     components: {
-      basketItem: basketItem
+      basketItem: BasketItem
     },
     methods: {
       remove ($event) {
